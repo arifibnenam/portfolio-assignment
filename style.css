@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.link-button{
+    padding: 5px 20px;
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.orange-color{
+    color: orange;
+}
+
+/* Explore Area */
+.explore{
+    display: flex;
+}
+.explore-two-column {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.explore-two-column img{
+    width: 70%;
+}
+#explore-heading{
+    border-left: 4px solid red;
+    padding-left: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+
+}
+/* Mission Area */
+.mission h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+.three-column{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.three-column-item{
+    width: 30%;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.three-column-item img{
+    width: 50%;
+}
+#mission-column{
+    background-color: gainsboro;
+}
+#vission-column{
+    background-color: rgb(161, 130, 145);
+}
+#goals-column{
+    background-color: khaki;
+}
+/* Develop Area */
+.develop{
+    margin-top: 50px;
+    display: flex;
+}
+.two-column-row{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.first-column{
+    width: 35%;
+    margin-left: 5%;
+}
+.first-column img{
+    width: 92%;
+
+}
+.second-column{
+    width: 52%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+.column-margin-top{
+    margin: 50px;
+}
+#dev-left-column{
+    margin-left: 5%;
+}
+#dev-right-column{
+    margin-right: 5%;
+}
+.row-heading{
+    font-size: 30px;
+}
+/* Services Area */
+.services{
+    margin-top: 50px;
+    text-align: center;
+}
+.services h1{
+    font-size: 40px;
+    color: #F01818  ;
+}
+.services-row{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.services-row-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border: 1px solid gainsboro;
+    border-top: 3px solid #F01818  ;
+}
+/* footer */
+footer{
+    margin-top: 100px;
+    height: 200px;
+    text-align: center;
+    background-color: black;
+    color: gainsboro;
+}
+#footer-item{
+    padding-top: 50px;
+}
+#copyright-heading{
+    font-family: 'Lora', serif;
+}
+#copyright-heading-year{
+    color: rgb(238, 113, 113);
+}
