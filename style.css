@@ -40,7 +40,7 @@ body{
     font-size: 40px;
 
 }
-.three-column{
+.three-column-row{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
@@ -58,7 +58,7 @@ body{
     background-color: gainsboro;
 }
 #vission-column{
-    background-color: rgb(161, 130, 145);
+    background-color: rgba(161, 130, 145, 0.589);
 }
 #goals-column{
     background-color: khaki;
@@ -101,9 +101,10 @@ body{
 /* Services Area */
 .services{
     margin-top: 50px;
-    text-align: center;
+    
 }
 .services h1{
+    text-align: center;
     font-size: 40px;
     color: orangered  ;
 }
@@ -136,4 +137,18 @@ footer{
 }
 #copyright-heading-year{
     color: rgb(238, 113, 113);
+}
+/* Background Images */
+#develop-background-image{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left;
+}
+#community-background-image{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right;
+    background-position-x: 1050px;
 }
