@@ -105,7 +105,7 @@ body{
 }
 .services h1{
     font-size: 40px;
-    color: #F01818  ;
+    color: orangered  ;
 }
 .services-row{
     margin-top: 50px;
@@ -118,7 +118,7 @@ body{
     margin-right: 20px;
     padding: 20px 20px;
     border: 1px solid gainsboro;
-    border-top: 3px solid #F01818  ;
+    border-top: 3px solid orangered ;
 }
 /* footer */
 footer{
